@@ -30,14 +30,59 @@ h2{
     color:#ffffff;
 }
 
-p{
-    font-size:22px;
-    margin-bottom:12px;
-    padding:12px 18px;
-    background:#1b1b1b;
-    border-left:6px solid #ff2d2d;
-    border-radius:6px;
-    transition:0.25s;
+.table-container{
+
+    overflow-x:auto;
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin-top:25px;
+
+}
+
+thead{
+
+    background:#ff3030;
+
+}
+
+th{
+
+    padding:16px;
+    text-align:left;
+    font-size:18px;
+    letter-spacing:1px;
+
+}
+
+td{
+
+    padding:14px 16px;
+    text-align:left;
+    border-bottom:1px solid #333;
+
+}
+
+tbody tr{
+
+    transition:.25s;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#181818;
+
+}
+
+tbody tr:hover{
+
+    background:#252525;
+
 }
 
 p:hover{
