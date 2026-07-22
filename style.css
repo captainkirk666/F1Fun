@@ -16,6 +16,29 @@
 
 }
 
+.driver-card{
+    display:grid;
+    grid-template-columns:
+        60px
+        2fr
+        1.2fr
+        1.5fr
+        100px
+        80px;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-bottom:10px;
+
+    padding:18px 22px;
+
+    border-radius:12px;
+
+    background:rgba(22,22,22,.92);
+}
+
 body{
     font-family:'Oswald', sans-serif;
     background:#111;
