@@ -117,13 +117,13 @@ h1{
 
     gap:10px;
 
-    padding:12px 24px;
+    padding:8px 8px;
 
     background:rgba(40,40,40,.92);
 
 border:1px solid #666;
 
-    border-radius:14px;
+    border-radius:10px;
 
     transition:0.25s;
 
