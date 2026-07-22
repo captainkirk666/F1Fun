@@ -12,7 +12,11 @@ fetch(url)
 
         document.body.innerHTML += "<h2>Drivers</h2>";
 
-table.innerHTML += `
+const tbody = document.querySelector("#driversTable tbody");
+
+  drivers.forEach(driver => { 
+      
+  table.innerHTML += `
 <tr>
 
     <td>${driver.position}</td>
@@ -33,6 +37,7 @@ table.innerHTML += `
 </tr>
 `;
 
+      
 });
 
     })
