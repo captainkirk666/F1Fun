@@ -7,6 +7,15 @@
     box-sizing:border-box;
 }
 
+.card{
+
+    background:#1a1a1a;
+    border-radius:14px;
+    padding:25px;
+    border:1px solid #333;
+
+}
+
 body{
     font-family:'Oswald', sans-serif;
     background:#111;
