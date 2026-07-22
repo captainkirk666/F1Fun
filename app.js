@@ -14,16 +14,18 @@ fetch(url)
 
 drivers.forEach(driver => {
 
-    console.log(`
-${driver.position}
-${driver.Driver.givenName}
-${driver.Driver.familyName}
+    document.body.innerHTML += `
+        <p>
+            <strong>${driver.position}.</strong>
+            ${driver.Driver.givenName}
+            ${driver.Driver.familyName}<br>
 
-Nationality: ${driver.Driver.nationality}
-Team: ${driver.Constructors[0].name}
-Points: ${driver.points}
-Wins: ${driver.wins}
-`);
+            Nationality: ${driver.Driver.nationality}<br>
+            Team: ${driver.Constructors[0].name}<br>
+            Points: ${driver.points}<br>
+            Wins: ${driver.wins}
+        </p>
+    `;
 
 });
 
