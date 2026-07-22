@@ -121,6 +121,8 @@ h1{
 
     background:rgba(40,40,40,.92);
 
+    border:1px solid rgba(128,128,128,.5);
+
     border-radius:14px;
 
     transition:0.25s;
