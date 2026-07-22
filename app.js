@@ -8,7 +8,11 @@ fetch(url)
       data.MRData
           .StandingsTable
           .StandingsLists[0]
-          DriverStandings.forEach(driver => {
+       drivers.forEach(driver => {
+
+    console.log(
+        `${driver.position}. ${driver.Driver.givenName} ${driver.Driver.familyName} - ${driver.points} pts`
+    );
 
 });
 
