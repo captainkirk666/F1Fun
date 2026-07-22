@@ -18,11 +18,11 @@ drivers.forEach(driver => {
         <p>
             <strong>${driver.position}.</strong>
             ${driver.Driver.givenName}
-            ${driver.Driver.familyName}<br>
+            ${driver.Driver.familyName}
 
-            Nationality: ${driver.Driver.nationality}<br>
-            Team: ${driver.Constructors[0].name}<br>
-            Points: ${driver.points}<br>
+            Nationality: ${driver.Driver.nationality}
+            Team: ${driver.Constructors[0].name}
+            Points: ${driver.points}
             Wins: ${driver.wins}
         </p>
     `;
