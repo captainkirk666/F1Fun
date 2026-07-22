@@ -8,7 +8,9 @@ fetch(url)
       data.MRData
           .StandingsTable
           .StandingsLists[0]
-          .DriverStandings[0];
+          DriverStandings.forEach(driver => {
+
+});
 
     document.body.innerHTML = `
       <h1>🏎️ Formula One Championship</h1>
