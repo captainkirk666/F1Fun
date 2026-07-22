@@ -12,20 +12,26 @@ fetch(url)
 
         document.body.innerHTML += "<h2>Drivers</h2>";
 
-drivers.forEach(driver => {
+table.innerHTML += `
+<tr>
 
-    document.body.innerHTML += `
-        <p>
-            <strong>${driver.position}.</strong>
-            ${driver.Driver.givenName}
-            ${driver.Driver.familyName}
+    <td>${driver.position}</td>
 
-            Nationality: ${driver.Driver.nationality}
-            Team: ${driver.Constructors[0].name}
-            Points: ${driver.points}
-            Wins: ${driver.wins}
-        </p>
-    `;
+    <td>
+        ${driver.Driver.givenName}
+        ${driver.Driver.familyName}
+    </td>
+
+    <td>${driver.Driver.nationality}</td>
+
+    <td>${driver.Constructors[0].name}</td>
+
+    <td>${driver.points}</td>
+
+    <td>${driver.wins}</td>
+
+</tr>
+`;
 
 });
 
