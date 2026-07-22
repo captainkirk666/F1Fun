@@ -17,28 +17,40 @@ fetch(url)
         tbody.innerHTML = "";
 
         // Add one row for each driver
-        drivers.forEach(driver => {
+drivers.forEach(driver => {
 
-            tbody.innerHTML += `
-                <tr>
+    document.querySelector("#drivers").innerHTML += `
 
-                    <td>${driver.position}</td>
+        <div class="driver-card">
 
-                    <td>${driver.Driver.givenName} ${driver.Driver.familyName}</td>
+            <div class="position">${driver.position}</div>
 
-                    <td>${driver.Driver.nationality}</td>
+            <div class="driver-name">
+                ${driver.Driver.givenName}
+                ${driver.Driver.familyName}
+            </div>
 
-                    <td>${driver.Constructors[0].name}</td>
+            <div class="nationality">
+                ${driver.Driver.nationality}
+            </div>
 
-                    <td>${driver.points}</td>
+            <div class="team">
+                ${driver.Constructors[0].name}
+            </div>
 
-                    <td>${driver.wins}</td>
+            <div class="points">
+                ${driver.points}
+            </div>
 
-                </tr>
-            `;
+            <div class="wins">
+                ${driver.wins}
+            </div>
 
-        });
+        </div>
 
+    `;
+
+});
     })
     .catch(error => {
 
