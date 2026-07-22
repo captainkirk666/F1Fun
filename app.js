@@ -12,18 +12,20 @@ fetch(url)
 
         document.body.innerHTML += "<h2>Drivers</h2>";
 
-        drivers.forEach(driver => {
+drivers.forEach(driver => {
 
-            document.body.innerHTML += `
-                <p>
-                    ${driver.position}.
-                    ${driver.Driver.givenName}
-                    ${driver.Driver.familyName}
-                    - ${driver.points} pts
-                </p>
-            `;
+    console.log(`
+${driver.position}
+${driver.Driver.givenName}
+${driver.Driver.familyName}
 
-        });
+Nationality: ${driver.Driver.nationality}
+Team: ${driver.Constructors[0].name}
+Points: ${driver.points}
+Wins: ${driver.wins}
+`);
+
+});
 
     })
     .catch(error => {
