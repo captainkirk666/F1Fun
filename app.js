@@ -1,4 +1,38 @@
-const url = "https://api.jolpi.ca/ergast/f1/current/driverStandings.json";
+const url =
+"https://api.jolpi.ca/ergast/f1/current/driverStandings.json";
+
+fetch(url)
+.then(response => response.json())
+.then(data => {
+
+    const drivers =
+    data.MRData
+        .StandingsTable
+        .StandingsLists[0]
+        .DriverStandings;
+
+    document.body.innerHTML =
+    "<h1>🏎 Formula One Championship</h1>";
+
+    drivers.forEach(driver => {
+
+        document.body.innerHTML += `
+
+            <p>
+
+            ${driver.position}.
+            ${driver.Driver.givenName}
+            ${driver.Driver.familyName}
+
+            - ${driver.points} pts
+
+            </p>
+
+        `;
+
+    });
+
+});const url = "https://api.jolpi.ca/ergast/f1/current/driverStandings.json";
 
 fetch(url)
   .then(response => response.json())
