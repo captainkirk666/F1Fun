@@ -44,6 +44,14 @@ table{
 
 }
 
+.page{
+
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+
+}
+
 thead{
 
     background:#ff3030;
