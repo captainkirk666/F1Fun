@@ -10,38 +10,38 @@ fetch(url)
                 .StandingsLists[0]
                 .DriverStandings;
 
-        document.body.innerHTML += "<h2>Drivers</h2>";
+        // Find the table body
+        const tbody = document.querySelector("#driversTable tbody");
 
-const tbody = document.querySelector("#driversTable tbody");
+        // Clear any existing rows
+        tbody.innerHTML = "";
 
-  drivers.forEach(driver => { 
-      
-  table.innerHTML += `
-<tr>
+        // Add one row for each driver
+        drivers.forEach(driver => {
 
-    <td>${driver.position}</td>
+            tbody.innerHTML += `
+                <tr>
 
-    <td>
-        ${driver.Driver.givenName}
-        ${driver.Driver.familyName}
-    </td>
+                    <td>${driver.position}</td>
 
-    <td>${driver.Driver.nationality}</td>
+                    <td>${driver.Driver.givenName} ${driver.Driver.familyName}</td>
 
-    <td>${driver.Constructors[0].name}</td>
+                    <td>${driver.Driver.nationality}</td>
 
-    <td>${driver.points}</td>
+                    <td>${driver.Constructors[0].name}</td>
 
-    <td>${driver.wins}</td>
+                    <td>${driver.points}</td>
 
-</tr>
-`;
+                    <td>${driver.wins}</td>
 
-      
-});
+                </tr>
+            `;
+
+        });
 
     })
     .catch(error => {
+
         console.error(error);
-        document.body.innerHTML += "<h2>Something went wrong!</h2>";
+
     });
