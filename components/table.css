@@ -30,7 +30,7 @@
 
     display:grid;
 
-    grid-template-columns:var(--table-columns);
+grid-template-columns:var(--columns);
 
     gap:var(--space-medium);
 
@@ -47,7 +47,7 @@
 
     display:grid;
 
-    grid-template-columns:var(--table-columns);
+grid-template-columns:var(--columns);
 
     gap:var(--space-medium);
 
