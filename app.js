@@ -10,7 +10,9 @@ fetch(url)
                 .StandingsLists[0]
                 .DriverStandings;
 
-        const container = document.querySelector("#drivers");
+const container =
+    document.querySelector("#table") ||
+    document.querySelector("#drivers");
 
         // Clear the sample card from the HTML
         container.innerHTML = "";
