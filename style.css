@@ -33,7 +33,15 @@ Turquise Green #0b785e
 
 /* Page Widths */
 
+    --driver-columns:70px 3fr 1.2fr 1.5fr 90px 90px;
+
+
 }
+
+
+
+
+
 
 /*==================================================
   01 - GOOGLE FONT
