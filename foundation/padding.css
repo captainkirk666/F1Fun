@@ -1,1 +1,12 @@
+/*==================================================
+  PADDING
+==================================================*/
 
+:root{
+
+    --padding-small:4px;
+    --padding-medium:12px;
+    --padding-large:24px;
+    --padding-xlarge:40px;
+
+}
