@@ -71,13 +71,14 @@ Turquise Green #0b785e
 
 :root{
 
---driver-columns:
-    70px
-    3fr
-    1.2fr
-    1.5fr
-    80px
-    80px;
+    --table-columns:
+
+        70px
+        3fr
+        1.2fr
+        1.5fr
+        80px
+        80px;
 
 }
 
@@ -146,7 +147,7 @@ body{
 .driver-header{
 
     display:grid;
-    grid-template-columns:var(--driver-columns);
+    grid-template-columns:var(--table-columns);
 
     gap:var(--space-medium);
 
@@ -251,7 +252,7 @@ h1{
 .driver-card{
 
     display:grid;
-    grid-template-columns:var(--driver-columns);
+    grid-template-columns:var(--table-columns);
     align-items:center;
     gap:var(--space-medium);
     transition:var(--transition-fast);
