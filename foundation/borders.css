@@ -1,1 +1,16 @@
+/*==================================================
+  BORDERS
+==================================================*/
 
+:root{
+
+    --border-thin:1px;
+    --border-medium:2px;
+    --border-thick:4px;
+
+    --radius-none:0;
+    --radius-small:4px;
+    --radius-medium:8px;
+    --radius-large:16px;
+
+}
