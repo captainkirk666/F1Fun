@@ -41,45 +41,47 @@ Building the Editorial Table Component
 
             </div>
 
-<div class="card driver-header">
+<div class="card table-header">
 
-    <div>POS</div>
+    <div class="table-cell table-cell--center">POS</div>
 
-    <div>DRIVER</div>
+    <div class="table-cell">DRIVER</div>
 
-    <div>NATIONALITY</div>
+    <div class="table-cell">NATIONALITY</div>
 
-    <div>TEAM</div>
+    <div class="table-cell">TEAM</div>
 
-    <div>PTS</div>
+    <div class="table-cell table-cell--right">PTS</div>
 
-    <div>WINS</div>
+    <div class="table-cell table-cell--right">WINS</div>
 
 </div>
-            
-           <div id="drivers">
 
-<div class="card driver-card">
+<div id="table" class="table">
 
-        <div class="position">1</div>
+    <div class="card table-row">
 
-        <div class="driver-name">
+        <div class="table-cell table-cell--center">
+            1
+        </div>
+
+        <div class="table-cell">
             Andrea Kimi Antonelli
         </div>
 
-        <div class="nationality">
+        <div class="table-cell">
             Italian
         </div>
 
-        <div class="team">
+        <div class="table-cell">
             Mercedes
         </div>
 
-        <div class="points">
+        <div class="table-cell table-cell--right">
             204
         </div>
 
-        <div class="wins">
+        <div class="table-cell table-cell--right">
             6
         </div>
 
@@ -87,13 +89,11 @@ Building the Editorial Table Component
 
 </div>
 
-            </div>
+</div>
 
-    
+</div>
 
-    </div>
-
-    <script src="app.js"></script>
+<script src="app.js"></script>
 
 </body>
 
