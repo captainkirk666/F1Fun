@@ -19,7 +19,7 @@ fetch(url)
 
             container.innerHTML += `
 
-                <div class="driver-card">
+             <div class="card driver-card">
 
                     <div class="position">
                         ${driver.position}
