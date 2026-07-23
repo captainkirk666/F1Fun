@@ -12,6 +12,8 @@ July 23, 2026
 
 :root{
    --driver-columns:70px 3fr 1.2fr 1.5fr 90px 90px;
+    --page-width:1200px;
+    --widget-width:100%;
 
 }
 
