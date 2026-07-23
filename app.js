@@ -10,47 +10,48 @@ fetch(url)
                 .StandingsLists[0]
                 .DriverStandings;
 
-        // Find the table body
-        const tbody = document.querySelector("#driversTable tbody");
+        const container = document.querySelector("#drivers");
 
-        // Clear any existing rows
-        tbody.innerHTML = "";
+        // Clear the sample card from the HTML
+        container.innerHTML = "";
 
-        // Add one row for each driver
-drivers.forEach(driver => {
+        drivers.forEach(driver => {
 
-    document.querySelector("#drivers").innerHTML += `
+            container.innerHTML += `
 
-        <div class="driver-card">
+                <div class="driver-card">
 
-            <div class="position">${driver.position}</div>
+                    <div class="position">
+                        ${driver.position}
+                    </div>
 
-            <div class="driver-name">
-                ${driver.Driver.givenName}
-                ${driver.Driver.familyName}
-            </div>
+                    <div class="driver-name">
+                        ${driver.Driver.givenName}
+                        ${driver.Driver.familyName}
+                    </div>
 
-            <div class="nationality">
-                ${driver.Driver.nationality}
-            </div>
+                    <div class="nationality">
+                        ${driver.Driver.nationality}
+                    </div>
 
-            <div class="team">
-                ${driver.Constructors[0].name}
-            </div>
+                    <div class="team">
+                        ${driver.Constructors[0].name}
+                    </div>
 
-            <div class="points">
-                ${driver.points}
-            </div>
+                    <div class="points">
+                        ${driver.points}
+                    </div>
 
-            <div class="wins">
-                ${driver.wins}
-            </div>
+                    <div class="wins">
+                        ${driver.wins}
+                    </div>
 
-        </div>
+                </div>
 
-    `;
+            `;
 
-});
+        });
+
     })
     .catch(error => {
 
