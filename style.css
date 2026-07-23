@@ -192,7 +192,7 @@ h1{
 
     font-size:52px;
     font-weight:600;
-    color:#ff3030;
+    color:var(--red);
     text-transform:uppercase;
     letter-spacing:1px;
    text-align:center;
