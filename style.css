@@ -258,7 +258,7 @@ h1{
 
 .driver-card:hover{
 
-    background:rgba(200,200,200,.95);
+    background:rgba(300,300,300,.25);
     transform:translateX(3px);
     cursor:pointer;
 
