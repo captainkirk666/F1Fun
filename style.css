@@ -64,8 +64,12 @@ body{
 
 .widget{
 
-    background:rgba(25,25,25,.92);
-    border-radius:14px;
+    background:none;
+
+    border:none;
+
+    border-radius:0;
+
     padding:30px;
 
 }
