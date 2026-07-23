@@ -8,61 +8,61 @@
       NEUTRALS
     ==================================================*/
 
-    --black:
-    --dark-grey:
-    --mid-grey:
-    --light-grey:
-    --neutral:
-    --tan:
-    --buff:
-    --white:
+    --black:#000000;
+    --dark-grey:#202020;
+    --mid-grey:#666666;
+    --light-grey:#BDBDBD;
+    --neutral:#D8D2C8;
+    --tan:#C8A97E;
+    --buff:#E6D3A3;
+    --white:#FFFFFF;
 
     /*==================================================
       REDS
     ==================================================*/
 
-    --dark-red:
-    --red:
-    --light-red:
+    --dark-red:#8B0000;
+    --red:#E10600;
+    --light-red:#FF6B6B;
 
     /*==================================================
       ORANGES
     ==================================================*/
 
-    --dark-orange:
-    --orange:
-    --light-orange:
+    --dark-orange:;
+    --orange:;
+    --light-orange:;
 
     /*==================================================
       YELLOWS
     ==================================================*/
 
-    --dark-yellow:
-    --yellow:
-    --light-yellow:
+    --dark-yellow:;
+    --yellow:;
+    --light-yellow:;
 
     /*==================================================
       GREENS
     ==================================================*/
 
-    --dark-green:
-    --green:
-    --light-green:
+    --dark-green:;
+    --green:;
+    --light-green:;
 
     /*==================================================
       BLUES
     ==================================================*/
 
-    --dark-blue:
-    --blue:
-    --light-blue:
+    --dark-blue:;
+    --blue:;
+    --light-blue:;
 
     /*==================================================
       PURPLES
     ==================================================*/
 
-    --dark-purple:
-    --purple:
-    --light-purple:
+    --dark-purple:;
+    --purple:;
+    --light-purple:;
 
 }
