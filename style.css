@@ -22,22 +22,26 @@
 
 body{
 
+    min-height:100vh;
+
     font-family:'Oswald', sans-serif;
 
     color:white;
 
     padding:40px;
 
-background:
-radial-gradient(circle at top left,
-rgba(25,120,140,.45),
-transparent 55%),
+    background:
+        radial-gradient(circle at top left,
+        rgba(25,120,140,.45),
+        transparent 55%),
 
-linear-gradient(
-135deg,
-#08232b 0%,
-#06171d 45%,
-#000000 100%);
+        linear-gradient(
+        135deg,
+        #08232b 0%,
+        #06171d 45%,
+        #000000 100%);
+
+    background-attachment:fixed;
 
 }
 
