@@ -231,17 +231,20 @@ h1{
 .driver-card{
 
     display:grid;
+
     grid-template-columns:var(--driver-columns);
 
     align-items:center;
-    gap:var(--space-2);
 
-    padding:var(--space-3) var(--space-5);
+    gap:var(--space-medium);
+
+    padding:var(--padding-medium) var(--padding-large);
 
     border:var(--border-thin) solid var(--mid-grey);
+
     border-radius:var(--radius-none);
 
-    transition:var(--transition-fast);
+    transition:0.25s;
 
 }
 
