@@ -6,7 +6,7 @@
 
     background:var(--dark-grey);
     border:var(--border-thin) solid var(--mid-grey);
-    border-radius:var(--radius-small);
+    border-radius:var(--radius-none);
     padding:var(--padding-small);
 
 }
