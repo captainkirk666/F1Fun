@@ -144,7 +144,7 @@ body{
 
     background:#ff3030;
 
-    border:1px solid var(--mid-grey);
+    border:var(--border-none);
 
     color:white;
 
