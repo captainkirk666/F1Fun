@@ -133,49 +133,15 @@ body{
 .driver-header{
 
     display:grid;
-
     grid-template-columns:var(--driver-columns);
-
-    gap:10px;
-
-    padding:12px 24px;
-
-    margin-bottom:10px;
-
-    background:#ff3030;
-
-    border:var(--border-none);
-
-    color:white;
-
+    gap:var(--space-medium);
+    margin-bottom:var(--space-medium);
+    background:var(--red);
+    color:var(--white);
     font-size:14px;
-
     font-weight:600;
-
     letter-spacing:2px;
-
     text-transform:uppercase;
-
-}
-
-.driver-header div{
-
-    display:flex;
-
-    align-items:center;
-
-}
-
-.driver-header div:nth-child(1){
-
-    justify-content:center;
-
-}
-
-.driver-header div:nth-child(5),
-.driver-header div:nth-child(6){
-
-    justify-content:flex-end;
 
 }
 /*==================================================
