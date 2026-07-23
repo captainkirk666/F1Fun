@@ -28,13 +28,16 @@ body{
 
     padding:40px;
 
-    background:
-        radial-gradient(circle at top left,
-        #0f4c5c 0%,
-        #0b3a46 25%,
-        #082b34 45%,
-        #04181e 70%,
-        #000000 100%);
+background:
+radial-gradient(circle at top left,
+rgba(25,120,140,.45),
+transparent 55%),
+
+linear-gradient(
+135deg,
+#08232b 0%,
+#06171d 45%,
+#000000 100%);
 
 }
 
