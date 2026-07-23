@@ -5,11 +5,8 @@
 .card{
 
     background:var(--dark-grey);
-
     border:var(--border-thin) solid var(--mid-grey);
-
     border-radius:var(--radius-small);
-
     padding:var(--padding-small);
 
 }
