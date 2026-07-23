@@ -23,9 +23,18 @@
 body{
 
     font-family:'Oswald', sans-serif;
-    background:#111;
-    color:#ffffff;
+
+    color:white;
+
     padding:40px;
+
+    background:
+        radial-gradient(circle at top left,
+        #0f4c5c 0%,
+        #0b3a46 25%,
+        #082b34 45%,
+        #04181e 70%,
+        #000000 100%);
 
 }
 
