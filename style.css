@@ -240,6 +240,8 @@ h1{
 
     padding:var(--padding-medium) var(--padding-large);
 
+    background:var(--dark-grey);
+
     border:var(--border-thin) solid var(--mid-grey);
 
     border-radius:var(--radius-none);
