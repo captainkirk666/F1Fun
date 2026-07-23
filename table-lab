@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Table Lab</title>
+
+<h1>Table Lab</h1>
+
+<p class="subtitle">
+Building the Editorial Table Component
+</p>
+
+    <link rel="stylesheet" href="foundation/colours.css">
+    <link rel="stylesheet" href="foundation/spacing.css">
+    <link rel="stylesheet" href="foundation/padding.css">
+    <link rel="stylesheet" href="foundation/borders.css">
+
+    <link rel="stylesheet" href="components/card.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="widget">
+
+            <div class="widget-header">
+
+                <h1> 2026 F1 Drivers Championship</h1>
+
+                <p class="subtitle">
+                    Current Driver Standings
+                </p>
+
+            </div>
+
+<div class="card driver-header">
+
+    <div>POS</div>
+
+    <div>DRIVER</div>
+
+    <div>NATIONALITY</div>
+
+    <div>TEAM</div>
+
+    <div>PTS</div>
+
+    <div>WINS</div>
+
+</div>
+            
+           <div id="drivers">
+
+<div class="card driver-card">
+
+        <div class="position">1</div>
+
+        <div class="driver-name">
+            Andrea Kimi Antonelli
+        </div>
+
+        <div class="nationality">
+            Italian
+        </div>
+
+        <div class="team">
+            Mercedes
+        </div>
+
+        <div class="points">
+            204
+        </div>
+
+        <div class="wins">
+            6
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+    
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
