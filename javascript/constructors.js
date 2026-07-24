@@ -4,11 +4,11 @@ fetch(url)
     .then(response => response.json())
     .then(data => {
 
-        const drivers =
-            data.MRData
-                .StandingsTable
-                .StandingsLists[0]
-                .DriverStandings;
+const constructors =
+    data.MRData
+        .StandingsTable
+        .StandingsLists[0]
+        .ConstructorStandings;
 
 const container =
     document.querySelector("#table") ||
