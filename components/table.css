@@ -69,12 +69,17 @@ grid-template-columns:var(--columns);
   TABLE ROW
 ==================================================*/
 
-.table-row{
+.table-row,
+.table-header{
 
     display:grid;
-grid-template-columns:var(--columns);
+
+    grid-template-columns:var(--table-columns);
+
     gap:var(--space-medium);
+
     align-items:center;
+
 }
 
 .table--constructors .table-row,
