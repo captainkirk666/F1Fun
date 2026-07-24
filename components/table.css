@@ -12,11 +12,12 @@
 
 }
 
+
 /*==================================================
   TABLE VARIANTS
 ==================================================*/
 
-.table-drivers{
+.table--drivers{
 
     --columns:
         70px
@@ -25,43 +26,6 @@
         1.5fr
         90px
         90px;
-
-}
-
-.table-constructors{
-
-    --columns:
-        70px
-        4fr
-        100px
-        100px;
-
-}
-
-
-
-/*==================================================
-  TABLE HEADER
-==================================================*/
-
-
-
-
-/*==================================================
-  TABLE ROW
-==================================================*/
-
-.table-row,
-.table-header{
-
-    display:grid;
-    grid-template-columns:var(--columns);
-    gap:var(--space-medium);
-    align-items:center;
-    font-size:0.85rem;
-    font-weight:700;
-    text-transform:uppercase;
-    letter-spacing:1px;
 
 }
 
@@ -75,6 +39,42 @@
 
 }
 
+
+/*==================================================
+  TABLE ROWS
+==================================================*/
+
+.table-header,
+.table-row{
+
+    display:grid;
+
+    grid-template-columns:var(--columns);
+
+    gap:var(--space-medium);
+
+    align-items:center;
+
+}
+
+
+/*==================================================
+  TABLE HEADER
+==================================================*/
+
+.table-header{
+
+    font-size:0.85rem;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+}
+
+
 /*==================================================
   TABLE CELLS
 ==================================================*/
@@ -84,6 +84,12 @@
     display:flex;
 
     align-items:center;
+
+}
+
+.table-cell--left{
+
+    justify-content:flex-start;
 
 }
 
