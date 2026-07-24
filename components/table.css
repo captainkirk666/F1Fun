@@ -44,15 +44,6 @@
   TABLE ROWS
 ==================================================*/
 
-.table-row{
-
-    display:grid;
-    grid-template-columns:var(--columns);
-    gap:var(--space-medium);
-    align-items:center;
-
-}
-
 .table-header{
 
     display:grid;
@@ -66,6 +57,19 @@
     letter-spacing:1px;
 
 }
+
+.table-row{
+
+    display:grid;
+    grid-template-columns:var(--columns);
+    gap:var(--space-medium);
+    align-items:center;
+      text-transform:uppercase;
+    letter-spacing:1px;
+
+}
+
+
 
 /*==================================================
   TABLE CELLS
