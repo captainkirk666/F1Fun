@@ -44,36 +44,28 @@
   TABLE ROWS
 ==================================================*/
 
-.table-header,
 .table-row{
 
     display:grid;
-
     grid-template-columns:var(--columns);
-
     gap:var(--space-medium);
-
     align-items:center;
 
 }
 
-
-/*==================================================
-  TABLE HEADER
-==================================================*/
-
 .table-header{
 
+    display:grid;
+    grid-template-columns:var(--columns);
+    gap:var(--space-medium);
+    align-items:center;
+
     font-size:0.85rem;
-
     font-weight:700;
-
     text-transform:uppercase;
-
     letter-spacing:1px;
 
 }
-
 
 /*==================================================
   TABLE CELLS
