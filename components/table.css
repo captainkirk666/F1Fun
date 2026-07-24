@@ -44,17 +44,7 @@
   TABLE HEADER
 ==================================================*/
 
-.table-header{
 
-    display:grid;
-
-grid-template-columns:var(--columns);
-
-    gap:var(--space-medium);
-
-    align-items:center;
-
-}
 
 
 /*==================================================
@@ -65,7 +55,7 @@ grid-template-columns:var(--columns);
 .table-header{
 
     display:grid;
-    grid-template-columns:var(--table-columns);
+    grid-template-columns:var(--columns);
     gap:var(--space-medium);
     align-items:center;
     font-size:0.85rem;
@@ -75,10 +65,13 @@ grid-template-columns:var(--columns);
 
 }
 
-.table--constructors .table-row,
-.table--constructors .table-header{
+.table--constructors{
 
-    grid-template-columns: var(--constructors-columns);
+    --columns:
+        70px
+        4fr
+        100px
+        100px;
 
 }
 
