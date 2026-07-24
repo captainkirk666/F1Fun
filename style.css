@@ -130,33 +130,6 @@ h1{
 
 
 
-/*==================================================
-  07 - DRIVER CONTAINER
-==================================================*/
-
-#drivers{
-
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-
-}
-
-
-
-/*==================================================
-  DRIVER CARD
-==================================================*/
-
-.driver-card{
-
-    display:grid;
-    grid-template-columns:var(--table-columns);
-    align-items:center;
-    gap:var(--space-medium);
-    transition:var(--transition-fast);
-
-}
 
 
 /*==================================================
@@ -226,33 +199,4 @@ h1{
 }
 
 
-/*==================================================
-  14 - HOVER EFFECT
-==================================================*/
 
-.driver-card:hover{
-
-    background:rgba(300,300,300,.25);
-    transform:translateX(3px);
-    cursor:pointer;
-
-}
-
-
-
-
-/*==================================================
-  15 - RESPONSIVE
-==================================================*/
-
-@media (max-width:900px){
-
-    .driver-card{
-
-        grid-template-columns:60px 2fr 1fr;
-
-        row-gap:8px;
-
-    }
-
-}
