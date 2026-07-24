@@ -77,8 +77,11 @@ grid-template-columns:var(--columns);
     align-items:center;
 }
 
-.table--constructors .table-row{
+.table--constructors .table-row,
+.table--constructors .table-header{
+
     grid-template-columns: var(--constructors-columns);
+
 }
 
 /*==================================================
