@@ -4,15 +4,6 @@
 
 .table{
 
-    --columns:
-
-        70px
-        3fr
-        1.2fr
-        1.5fr
-        80px
-        80px;
-
     display:flex;
 
     flex-direction:column;
@@ -20,6 +11,7 @@
     gap:var(--space-medium);
 
 }
+
 /*==================================================
   TABLE VARIANTS
 ==================================================*/
