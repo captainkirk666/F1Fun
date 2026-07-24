@@ -21,31 +21,23 @@ constructors.forEach(constructor => {
 
             container.innerHTML += `
 
-             <div class="card driver-card">
+<div class="card table-row">
 
                     <div class="position">
-                        ${driver.position}
+                        ${constructor.position}
                     </div>
 
-                    <div class="driver-name">
-                        ${driver.Driver.givenName}
-                        ${driver.Driver.familyName}
-                    </div>
-
-                    <div class="nationality">
-                        ${driver.Driver.nationality}
-                    </div>
 
                     <div class="team">
-                        ${driver.Constructors[0].name}
+                        ${constructor.Constructors[0].name}
                     </div>
 
                     <div class="points">
-                        ${driver.points}
+                        ${ constructor.points}
                     </div>
 
                     <div class="wins">
-                        ${driver.wins}
+                        ${constructor.wins}
                     </div>
 
                 </div>
