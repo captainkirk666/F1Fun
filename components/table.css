@@ -47,6 +47,7 @@
 }
 
 
+
 /*==================================================
   TABLE HEADER
 ==================================================*/
@@ -71,15 +72,14 @@ grid-template-columns:var(--columns);
 .table-row{
 
     display:grid;
-
 grid-template-columns:var(--columns);
-
     gap:var(--space-medium);
-
     align-items:center;
-
 }
 
+.table--constructors .table-row{
+    grid-template-columns: var(--constructors-columns);
+}
 
 /*==================================================
   TABLE CELLS
