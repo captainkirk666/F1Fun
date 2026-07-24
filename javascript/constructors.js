@@ -29,7 +29,7 @@ constructors.forEach(constructor => {
 
 
                     <div class="team">
-                        ${constructor.Constructors[0].name}
+                        ${constructor.Constructor.name}
                     </div>
 
                     <div class="points">
