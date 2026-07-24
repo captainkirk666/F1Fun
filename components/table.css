@@ -5,13 +5,16 @@
 .table{
 
     display:flex;
-
     flex-direction:column;
-
     gap:var(--space-medium);
 
 }
 
+.table-header{
+
+    margin-bottom:var(--space-medium);
+
+}
 
 /*==================================================
   TABLE VARIANTS
